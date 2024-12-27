@@ -1,6 +1,6 @@
 {
     "name": "RPi RF Receiver",
-    "version": "1.63",
+    "version": "1.64",
     "slug": "rfreceiver",
     "description": "RPi RF Receiver Script",
     "startup": "application",
@@ -11,14 +11,16 @@
     "apparmor": "false",
     "ports": {"5055/tcp": null},
     "options": {
-  "code": "/share/rpi-rf_receive.py",
-  "requirements": [
-    "rpi-rf"
-  ],
-  "clean": true
-},
-    "schema": {"code": "str",
-	       "requirements": ["str"],
-	       "clean": "bool?"},
+      	"code": "/share/rpi-rf_receive.py",
+        "requirements": [
+            "rpi-rf"
+        ],
+        "clean": true
+    },
+    "schema": {
+        "code": "str",
+	    "requirements": ["str"],
+	    "clean": "bool?"
+    },
     "map": ["share"]
 } 
