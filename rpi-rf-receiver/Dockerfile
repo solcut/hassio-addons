@@ -16,7 +16,7 @@ RUN apk add --no-cache        mosquitto
 #RUN apk add --no-cache        mosquitto-dev
 #RUN apk add --no-cache        mosquitto-libs
 RUN apk add --no-cache        mosquitto-clients
-#RUN apk add --no-cache        py-pip
+RUN apk add --no-cache        py-pip
 #RUN apk add --no-cache        python
 #RUN apk add --no-cache        python-dev
 RUN apk add --no-cache        python3
